@@ -1,0 +1,100 @@
+/* Container styling for the entire Kanban board */
+.kanban-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+}
+
+/* Title styling */
+.kanban-title {
+  text-align: center;
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+/* Control button container styling */
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Styling for each button in the control panel */
+.controls button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+}
+
+/* Kanban board styling */
+.kanban-board {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Styling for each column in the Kanban board */
+.kanban-column {
+  flex: 1;
+  min-width: 250px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling for each column */
+.kanban-column h2 {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Styling for each individual ticket card */
+.ticket-card {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.ticket-card:hover {
+  transform: scale(1.02);
+}
+
+/* Title styling within each ticket card */
+.ticket-card h3 {
+  font-size: 1.1em;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Text styling within each ticket card */
+.ticket-card p {
+  font-size: 0.9em;
+  color: #555;
+  margin: 2px 0;
+}
